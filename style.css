@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #e2e2e0;
+}
+
+.navbar{
+    display: flex;
+    background-color: cadetblue;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo img{
+    width: 250px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.hero{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+    url(images/Restaurant.jpg) center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-content{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    text-shadow: 5px 5px 10px black;
+}
+
+.hero-content p{
+    font-size: 20px;
+}
+
+.hero-content a button{
+    background-color: cadetblue;
+    height: 30px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero-content a button:hover{
+    color: white;
+    height: 35px;
+    font-size: 18px;
+}
+
+.producto-destacado{
+    display: flex;
+    padding: 40px;
+    background-color: cadetblue;
+    margin: 40px;
+    border-radius: 15px;
+}
+
+.producto-img img{
+    width: 350px;
+    border-radius: 15px;
+}
+
+.contenido-producto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 45px;
+    justify-content: center;
+}
+
+.contenido-producto a{
+    display: flex;
+    background-color: rgb(90, 128, 26);
+    height: 30px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.producto-destacado2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 40px;
+    background-color: cadetblue;
+    margin: 40px;
+    border-radius: 15px;
+}
+
+.galeria{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.card{
+    background-color: rgb(128, 163, 164);
+    border-radius: 10px;
+    width: 220px;
+    padding: 15px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card button{
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
