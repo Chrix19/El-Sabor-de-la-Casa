@@ -6,6 +6,14 @@ body{
     height: 100vh;
 }
 
+.navbar{
+    display: flex;
+    background-color: cadetblue;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
 .contenedor{
     background-color: cadetblue;
     padding: 40px;
