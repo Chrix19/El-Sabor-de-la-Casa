@@ -1,9 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: #e2e2e0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    background-color: cadetblue;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 .contenedor{
