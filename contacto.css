@@ -1,0 +1,27 @@
+body{
+    background-color: #e2e2e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor{
+    background-color: cadetblue;
+    padding: 40px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea{
+    padding: 10px;
+    background-color: burlywood;
+    border: none;
+    border-radius: 10px;
+}
