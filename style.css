@@ -153,24 +153,3 @@ body{
     padding: 5px 10px;
     cursor: pointer;
 }
-
-.contenedor{
-    background-color: cadetblue;
-    padding: 40px;
-    border-radius: 10px;
-    width: 350px;
-    margin: 40px;
-}
-
-.formulario{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-input, textarea{
-    padding: 10px;
-    background-color: burlywood;
-    border: none;
-    border-radius: 10px;
-}
